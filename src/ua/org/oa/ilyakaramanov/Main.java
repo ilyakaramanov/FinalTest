@@ -7,7 +7,9 @@ public class Main {
 
     public static void main(String[] args) throws CustomException {
 
-/*            Math math = new Math();
+           Math math = new Math();
+        System.out.println(math.subSequence("123456789", "aaa345aaa"));
+/*
           System.out.println(math.maxNumber(new int[]{1,4 ,4, 7}));
             System.out.println(math.averageInt(new double[] {50,1,5,1}));
            System.out.println(Arrays.asList(math.upperCase(new String[]{"sdfsdf","sxcxvxcv"})));
@@ -15,9 +17,9 @@ public class Main {
            System.out.println(math.subSequence("qwer cv", "qwer cvbb cvbnn"));
              math.loop(2);
 
-        *//*
+
         Задание № 7
-         *//*
+
            Bird bird = new Bird();
            bird.walk();
            bird.fly();
@@ -34,6 +36,8 @@ public class Main {
         } catch (CustomException e) {
             System.out.println(e.getLocalizedMessage());
         }*/
+
+
 
     }
 }

@@ -1,5 +1,6 @@
 package ua.org.oa.ilyakaramanov;
 
+
 public class Math {
 
     public int maxNumber(int[] array) {
@@ -43,12 +44,22 @@ public class Math {
     }
 
 
-
-    public String subSequence(String[] array){
-
-                StringUtils.ge
-String temp;
-
+    public String subSequence(String s1, String s2) {
+        int s1Len = s1.length();
+        int s2Len = s2.length();
+        if (s1Len == 0 || s2Len == 0) {
+            return "";
+        } else if (s1.charAt(s1Len - 1) == s2.charAt(s2Len - 1)) {
+            return subSequence(s1.substring(0, s1Len - 1), s2.substring(0, s2Len - 1)) + s1.charAt(s1Len - 1);
+        } else {
+            String x = subSequence(s1, s2.substring(0, s2Len - 1));
+            String y = subSequence(s1.substring(0, s1Len - 1), s2);
+            {
+                if (x.length() > y.length()) {
+                    return x;
+                } else return y;
+            }
+        }
     }
 
     public int loop(int n) {
