@@ -2,6 +2,12 @@ package ua.org.oa.ilyakaramanov;
 
 import java.lang.Math;
 
+/*
+Класс MyCalculator возвращает значение n в степени p
+Если они равны нули или отрицательные - возвращается ошибка
+ */
+
+
 public class MyCalculator {
 
     int n;

@@ -1,5 +1,10 @@
 package ua.org.oa.ilyakaramanov;
 
+/*
+Абстрактный класс Book
+ */
+
+
 abstract class Book {
     String title;
 

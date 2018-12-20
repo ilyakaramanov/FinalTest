@@ -1,7 +1,14 @@
 package ua.org.oa.ilyakaramanov;
 
+/*
+Класс создан для решения заданий 1-5
+ */
 
 public class Math {
+
+    /*
+    Метод находит наибольшее число в массиве
+     */
 
     public int maxNumber(int[] array) {
         int max = 0;
@@ -12,6 +19,9 @@ public class Math {
         return max;
     }
 
+    /*
+    Метод возвращает среднее арифметическое значение всех элеметнов массива
+     */
 
     public double averageInt(double[] array) {
         double average = 0;
@@ -24,6 +34,10 @@ public class Math {
         return average;
     }
 
+    /*
+    Метод делает все буквы заглавными
+     */
+
     public String[] upperCase(String[] upper) {
 
         String[] temp = new String[upper.length];
@@ -32,6 +46,10 @@ public class Math {
         }
         return temp;
     }
+
+    /*
+    Метод суммирует все четные числа массива
+     */
 
     public int evenNumbers(int[] array) {
         int sum = 0;
@@ -43,6 +61,9 @@ public class Math {
         return sum;
     }
 
+    /*
+    Метод находит максимальную последовательность символов в двух предложениях
+     */
 
     public String subSequence(String s1, String s2) {
         int s1Len = s1.length();
@@ -62,6 +83,10 @@ public class Math {
         }
     }
 
+    /*
+    Метод выводит аналог таблицы унможения
+     */
+
     public int loop(int n) {
         int temp = 0;
         for (int i = 1; i <= 10; i++) {
@@ -70,7 +95,6 @@ public class Math {
         }
         return temp;
     }
-
 
 }
 
