@@ -1,7 +1,7 @@
 package ua.org.oa.ilyakaramanov;
 
 /*
-Класс создан для решения заданий 1-5
+Класс создан для решения заданий 1-6
  */
 
 public class Math {
