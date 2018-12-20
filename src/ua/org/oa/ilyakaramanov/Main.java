@@ -11,10 +11,12 @@ public class Main {
 
     public static void main(String[] args) throws CustomException {
 
-        Math math = new Math();     //Объект класса Math
         /*
         Ниже вызываются методы для проверки работоспособности
          */
+
+        Math math = new Math();     //Объект класса Math
+
         System.out.print("Первое задание. Наибольшее число: ");
         System.out.println(math.maxNumber(new int[]{1, 4, 4, 7}));
 
@@ -45,7 +47,7 @@ public class Main {
         System.out.println(book.getTitle());
 
         System.out.println("Девятое задание. Возводим n в степень p: ");
-        MyCalculator calc = new MyCalculator();
+        MyCalculator calc = new MyCalculator();     //объект класса MyCalculator
         try {
             System.out.println(calc.power(4, 2));
             System.out.println(calc.power(0, 4));

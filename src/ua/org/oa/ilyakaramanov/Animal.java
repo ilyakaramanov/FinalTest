@@ -1,7 +1,7 @@
 package ua.org.oa.ilyakaramanov;
 
 /*
-Родительский класс для переопределять Bird
+Родительский класс для Bird
  */
 
 public class Animal {
