@@ -1,10 +1,10 @@
 package ua.org.oa.ilyakaramanov;
 
+import java.util.Arrays;
+
 /*
 Основной класс, в котором все запускаем
  */
-
-import java.util.Arrays;
 
 public class Main {
 

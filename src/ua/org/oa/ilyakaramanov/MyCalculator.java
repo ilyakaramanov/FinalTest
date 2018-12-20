@@ -7,7 +7,6 @@ import java.lang.Math;
 Если они равны нули или отрицательные - возвращается ошибка
  */
 
-
 public class MyCalculator {
 
     int n;
